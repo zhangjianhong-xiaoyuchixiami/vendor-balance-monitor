@@ -47,6 +47,7 @@ public class Entrance {
                     apiCost.setDays(apiCostResult.getDays());
                     apiCost.setTotleCost(apiCostResult.getTotleCost());
                     apiCost.setUsageAmount(apiCostResult.getUsageAmount());
+                    apiCost.setFeeAmount(apiCostResult.getFeeAmount());
                     apiCost.setConsuTime(sdf.parse(apiCostResult.getYears()+"/"+apiCostResult.getMonths()+"/"+apiCostResult.getDays()));
                     apiCosts.add(apiCost);
                 }

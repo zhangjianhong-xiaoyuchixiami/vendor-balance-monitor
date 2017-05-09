@@ -16,6 +16,7 @@ public class ApiCost implements Serializable {
     private Integer apiId;
     private Integer totleCost;
     private Integer usageAmount;
+    private Integer feeAmount;
     private Date consuTime;
     private Timestamp timestampl;
 
@@ -89,5 +90,13 @@ public class ApiCost implements Serializable {
 
     public void setTimestampl(Timestamp timestampl) {
         this.timestampl = timestampl;
+    }
+
+    public Integer getFeeAmount() {
+        return feeAmount;
+    }
+
+    public void setFeeAmount(Integer feeAmount) {
+        this.feeAmount = feeAmount;
     }
 }
